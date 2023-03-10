@@ -24,7 +24,7 @@ Citizen.CreateThread(function()
 
         -- Loop through all active players
         for _, player in ipairs(GetActivePlayers()) do
-            -- Draw the vRP ID text above the player's head
+            -- Draw the vRP ID text above the player's hea
             DrawPlayerVRPId(GetPlayerPed(player))
         end
 
